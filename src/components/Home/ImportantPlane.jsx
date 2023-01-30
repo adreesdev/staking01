@@ -14,15 +14,15 @@ const ImportantPlan = () => {
           }}
         >
           <ol>
-            <li style={{ fontSize: "1.3rem" }}>
+            <li style={{ fontSize: "1.2rem" }}>
               Important: Plans return are float and daily profit for a new
               deposit will increase by 0.5% daily
             </li>
-            <li style={{ fontSize: "1.3rem", margin: "0.5rem 0rem" }}>
+            <li style={{ fontSize: "1.2rem", margin: "0.5rem 0rem" }}>
               Minimum deposit amount is 0.05 BNB and you can have multiple
               deposits
             </li>
-            <li style={{ fontSize: "1.3rem" }}>
+            <li style={{ fontSize: "1.2rem" }}>
               {" "}
               Earnings every moment, withdraw instantly any time (if you did not
               use capitalization of interest in Plan 4, Plan 5 and Plan 6)
