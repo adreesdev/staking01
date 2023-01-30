@@ -7,8 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { createCustomTheme } from "./utils/createCustomTheme";
 import Home from "./components/Home/Home";
-import Navbar from "./components/Home/Navbar";
-import Cards from "./components/Home/Cards";
 
 const App = () => {
   const [mode, setMode] = useState("dark");
@@ -40,9 +38,7 @@ const App = () => {
           pauseOnHover
           theme="light"
         />
-        <Navbar />
-        <Home />
-        <Cards />
+        <Home toggleMode={toggleMode} />
       </ThemeProvider>
     </>
   );
