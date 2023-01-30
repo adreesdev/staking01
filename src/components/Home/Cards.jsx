@@ -18,17 +18,17 @@ export default function Cards() {
                 bgcolor="#2AFC9509"
               >
                 <Box
-                  width="70%"
+                  width="80%"
                   mx="auto"
-                  mt={-2.5}
-                  style={{
-                    padding: "15px 20px",
+                  mt={-1.8}
+                  sx={{
+                    padding: { xs: "10px 15px", md: "15px 20px" },
                     background: `url(${CardTopV})`,
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center center",
                     backgroundSize: "100% 100%",
                     fontWeight: "900",
-                    fontSize: "22px",
+                    fontSize: { xs: "18px", md: "22px" },
                   }}
                 >
                   Plan {i + 1}
@@ -140,7 +140,7 @@ export default function Cards() {
                     textAlign: "center",
                     width: "90%",
                     border: "1px solid green",
-                    justifyContent: "center",
+                    textAlign: "center",
                     bgcolor: "#2AFC9509",
                     color: "green",
                     fontSize: "24px",
@@ -167,12 +167,14 @@ export default function Cards() {
                   width="90%"
                   my={3}
                   mx="auto"
-                  style={{
-                    padding: "20px 22px",
+                  sx={{
+                    padding: "22px 20px",
                     background: `url(${CardButton})`,
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center center",
-                    backgroundSize: "contain",
+                    backgroundSize: "100% 100%",
+                    fontSize: { xs: "14px ", md: "16px" },
+                    fontWeight: { xs: 600, md: 700 },
                   }}
                 >
                   Stack BNB

@@ -15,11 +15,20 @@ const Hero = () => {
                 textAlign="center"
                 bgcolor="#2AFC9509"
               >
-                <Typography sx={{ fontWeight: "600", fontSize: "20px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "600",
+                    fontSize: { xs: "16px", md: "20px" },
+                  }}
+                >
                   Total BNB Stake Contract
                 </Typography>
                 <Typography
-                  sx={{ fontWeight: "900", fontSize: "50px", color: "green" }}
+                  sx={{
+                    fontWeight: "900",
+                    fontSize: { xs: "30px", md: "50px" },
+                    color: "green",
+                  }}
                 >
                   0
                 </Typography>
@@ -32,11 +41,20 @@ const Hero = () => {
                 textAlign="center"
                 bgcolor="#2AFC9509"
               >
-                <Typography sx={{ fontWeight: "600", fontSize: "20px" }}>
+                <Typography
+                  sx={{
+                    fontWeight: "600",
+                    fontSize: { xs: "16px", md: "20px" },
+                  }}
+                >
                   Total BNB Stake Contract
                 </Typography>
                 <Typography
-                  sx={{ fontWeight: "900", fontSize: "50px", color: "green" }}
+                  sx={{
+                    fontWeight: "900",
+                    fontSize: { xs: "30px", md: "50px" },
+                    color: "green",
+                  }}
                 >
                   0
                 </Typography>
@@ -54,49 +72,69 @@ const Hero = () => {
                 textAlign="left"
                 bgcolor="#2AFC9509"
               >
-                <Box sx={{ fontWeight: "700", fontSize: "18px" }}>
+                <Box
+                  sx={{
+                    fontWeight: "700",
+                    fontSize: { xs: "16px", md: "18px" },
+                  }}
+                >
                   <span
                     style={{
                       color: "green",
                       fontWeight: "600",
-                      fontSize: "17px",
+                      fontSize: { xs: "14px", md: "17px" },
                     }}
                   >
                     Total income:
                   </span>
                   based on your tarrif plan (from 5% to 8% daily)
                 </Box>
-                <Box sx={{ fontWeight: "700", fontSize: "18px" }}>
+                <Box
+                  sx={{
+                    fontWeight: "700",
+                    fontSize: { xs: "16px", md: "18px" },
+                  }}
+                >
                   <span
                     style={{
                       color: "green",
                       fontWeight: "600",
-                      fontSize: "17px",
+                      fontSize: { xs: "14px", md: "17px" },
                     }}
                   >
                     Basic interest rate:
                   </span>
                   +0.5% every 24 hours - only for new deposits
                 </Box>
-                <Box sx={{ fontWeight: "700", fontSize: "18px" }}>
+                <Box
+                  sx={{
+                    fontWeight: "700",
+                    fontSize: { xs: "16px", md: "18px" },
+                  }}
+                >
                   <span
                     style={{
                       color: "green",
                       fontWeight: "600",
-                      fontSize: "17px",
+                      fontSize: { xs: "14px", md: "17px" },
                     }}
                   >
                     Minimal deposit:
                   </span>
                   0.05 BNB, no maximal limit
                 </Box>
-                <Box sx={{ fontWeight: "700", fontSize: "18px" }}>
+                <Box
+                  sx={{
+                    fontWeight: "700",
+                    fontSize: { xs: "15px", md: "18px" },
+                  }}
+                >
                   Earnings every moment, withdraw any time
                   <span
                     style={{
                       color: "green",
                       fontWeight: "600",
-                      fontSize: "16px",
+                      fontSize: { xs: "12px", md: "16px" },
                     }}
                   >
                     (if you use capitalization of interest you can withdraw only
