@@ -9,14 +9,16 @@ const Footer = () => {
     <Box py={2} bgcolor="#000D2F" padding="2rem">
       <Container>
         <Grid container spacing={2}>
-          <Grid item md={3} xs={12}>
+          <Grid item md={3} sm={6} xs={12}>
             <Box>
               <Box
-                display="flex"
-                flexDirection="column"
-                alignItems="center"
-                justifyContent="center"
                 mt={2}
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: { md: "center", xs: "left" },
+                  alignItems: { md: "center", xs: "left" },
+                }}
               >
                 <StarRateIcon
                   sx={{
@@ -29,8 +31,8 @@ const Footer = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12}>
-            <Box mt={5} sx={{ textAlign: { md: "left", xs: "center" } }}>
+          <Grid item md={3} sm={6} xs={12}>
+            <Box mt={5}>
               <Typography
                 variant="h6"
                 color="white"
@@ -54,12 +56,7 @@ const Footer = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid
-            item
-            md={3}
-            xs={12}
-            sx={{ textAlign: { md: "left", xs: "center" } }}
-          >
+          <Grid item md={3} sm={6} xs={12}>
             <Box mt={4}>
               <Typography
                 variant="h6"
@@ -84,14 +81,9 @@ const Footer = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12} mt={4}>
-            <Box
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              flexDirection="column"
-            >
-              <Box display="flex" width="100%">
+          <Grid item md={3} sm={6} xs={12} mt={4}>
+            <Box>
+              <Box display="flex">
                 <LocationOnIcon
                   sx={{
                     color: "#2AFC95",
@@ -115,7 +107,7 @@ const Footer = () => {
                   </Typography>
                 </Box>
               </Box>
-              <Box display="flex" width="100%">
+              <Box display="flex">
                 <EmailIcon
                   sx={{
                     color: "#2AFC95",
