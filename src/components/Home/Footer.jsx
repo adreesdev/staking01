@@ -29,7 +29,7 @@ const Footer = () => {
             </Box>
           </Grid>
           <Grid item md={3} xs={12}>
-            <Box mt={4}>
+            <Box mt={4} sx={{ textAlign: { md: "left", xs: "center" } }}>
               <Typography variant="h6" color="white">
                 <u>HOME</u>
               </Typography>
@@ -41,7 +41,12 @@ const Footer = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={3} xs={12}>
+          <Grid
+            item
+            md={3}
+            xs={12}
+            sx={{ textAlign: { md: "left", xs: "center" } }}
+          >
             <Box mt={4}>
               <Typography variant="h6" color="white">
                 <u>HOW TO INVEST</u>
