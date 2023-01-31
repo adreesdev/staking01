@@ -31,7 +31,7 @@ export default function Navbar() {
               <Stack
                 direction="row"
                 gap={0.5}
-                sx={{ fontWeight: "700", fontSize: "14px" }}
+                sx={{ fontWeight: "700", fontSize: "14px", cursor: "pointer" }}
               >
                 <TelegramIcon
                   sx={{
@@ -43,7 +43,7 @@ export default function Navbar() {
               <Stack
                 direction="row"
                 gap={0.5}
-                sx={{ fontWeight: "700", fontSize: "14px" }}
+                sx={{ fontWeight: "700", fontSize: "14px", cursor: "pointer" }}
               >
                 <AssignmentOutlinedIcon
                   sx={{
@@ -55,7 +55,7 @@ export default function Navbar() {
               <Stack
                 direction="row"
                 gap={0.5}
-                sx={{ fontWeight: "700", fontSize: "14px" }}
+                sx={{ fontWeight: "700", fontSize: "14px", cursor: "pointer" }}
               >
                 <HelpOutlineOutlinedIcon
                   sx={{
@@ -71,6 +71,7 @@ export default function Navbar() {
                   fontSize: "14px",
                   padding: "10px 20px",
                   borderRadius: "35px",
+                  cursor: "pointer",
                 }}
               >
                 PDF Guide

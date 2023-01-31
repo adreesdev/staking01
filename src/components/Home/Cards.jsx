@@ -148,7 +148,7 @@ export default function Cards() {
                   Enter Amount
                 </Box>
                 <InputBase
-                  value="20"
+                  // value="20"
                   sx={{
                     px: 1,
                     mt: 0.4,
@@ -166,6 +166,7 @@ export default function Cards() {
                   my={3}
                   mx="auto"
                   sx={{
+                    cursor: "pointer",
                     padding: "22px 20px",
                     background: `url(${CardButton})`,
                     backgroundRepeat: "no-repeat",
