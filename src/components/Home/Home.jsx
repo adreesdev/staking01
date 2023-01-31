@@ -1,4 +1,3 @@
-import { Box, Container, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
 import ImportantPlan from "./ImportantPlane";
 import Footer from "./Footer";
@@ -9,16 +8,16 @@ import Cards from "./Cards";
 import Hero from "./Hero";
 
 const Home = () => {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Cards />
-      <ImportantPlan />
-      <Stake />
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<Navbar />
+			<Hero />
+			<Cards />
+			<ImportantPlan />
+			<Stake />
+			<Footer />
+		</>
+	);
 };
 
 export default Home;
