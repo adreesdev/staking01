@@ -35,7 +35,7 @@ export default function Navbar() {
               >
                 <TelegramIcon
                   sx={{
-                    color: "green",
+                    color: "#2AFC95",
                   }}
                 />
                 <Box>Telegram</Box>
@@ -47,7 +47,7 @@ export default function Navbar() {
               >
                 <AssignmentOutlinedIcon
                   sx={{
-                    color: "green",
+                    color: "#2AFC95",
                   }}
                 />
                 <Box>Audit</Box>
@@ -59,7 +59,7 @@ export default function Navbar() {
               >
                 <HelpOutlineOutlinedIcon
                   sx={{
-                    color: "green",
+                    color: "#2AFC95",
                   }}
                 />
                 <Box>Audit</Box>

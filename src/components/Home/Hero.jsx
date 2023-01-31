@@ -4,16 +4,16 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <Container>
+      <Box>
         <Container>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4} md={4}>
               <Box
                 p={2}
-                border="1px solid green"
+                border="1px solid #2AFC95"
                 borderRadius="15px"
                 textAlign="center"
-                bgcolor="#2AFC9509"
+                bgcolor="#062A34"
               >
                 <Typography
                   sx={{
@@ -25,9 +25,9 @@ const Hero = () => {
                 </Typography>
                 <Typography
                   sx={{
-                    fontWeight: "900",
-                    fontSize: { xs: "30px", md: "50px" },
-                    color: "green",
+                    fontWeight: "500",
+                    fontSize: { xs: "30px", md: "45px" },
+                    color: "#2AFC95",
                   }}
                 >
                   0
@@ -36,10 +36,10 @@ const Hero = () => {
               <Box
                 mt={2}
                 p={2}
-                border="1px solid green"
+                border="1px solid #2AFC95"
                 borderRadius="15px"
                 textAlign="center"
-                bgcolor="#2AFC9509"
+                bgcolor="#062A34"
               >
                 <Typography
                   sx={{
@@ -51,9 +51,9 @@ const Hero = () => {
                 </Typography>
                 <Typography
                   sx={{
-                    fontWeight: "900",
-                    fontSize: { xs: "30px", md: "50px" },
-                    color: "green",
+                    fontWeight: "500",
+                    fontSize: { xs: "30px", md: "45px" },
+                    color: "#2AFC95",
                   }}
                 >
                   0
@@ -67,10 +67,10 @@ const Hero = () => {
                 gap={2}
                 width="100%"
                 height={"100%"}
-                border="1px solid green"
+                border="1px solid #2AFC95"
                 borderRadius="15px"
                 textAlign="left"
-                bgcolor="#2AFC9509"
+                bgcolor="#062A34"
               >
                 <Box
                   sx={{
@@ -80,9 +80,10 @@ const Hero = () => {
                 >
                   <span
                     style={{
-                      color: "green",
+                      color: "#2AFC95",
                       fontWeight: "600",
                       fontSize: { xs: "14px", md: "17px" },
+                      marginRight: "0.5rem",
                     }}
                   >
                     Total income:
@@ -97,9 +98,10 @@ const Hero = () => {
                 >
                   <span
                     style={{
-                      color: "green",
+                      color: "#2AFC95",
                       fontWeight: "600",
                       fontSize: { xs: "14px", md: "17px" },
+                      marginRight: "0.5rem",
                     }}
                   >
                     Basic interest rate:
@@ -110,13 +112,15 @@ const Hero = () => {
                   sx={{
                     fontWeight: "700",
                     fontSize: { xs: "16px", md: "18px" },
+                    marginRight: "0.5rem",
                   }}
                 >
                   <span
                     style={{
-                      color: "green",
+                      color: "#2AFC95",
                       fontWeight: "600",
                       fontSize: { xs: "14px", md: "17px" },
+                      marginRight: "0.5rem",
                     }}
                   >
                     Minimal deposit:
@@ -132,7 +136,7 @@ const Hero = () => {
                   Earnings every moment, withdraw any time
                   <span
                     style={{
-                      color: "green",
+                      color: "#2AFC95",
                       fontWeight: "600",
                       fontSize: { xs: "12px", md: "16px" },
                     }}
@@ -145,7 +149,7 @@ const Hero = () => {
             </Grid>
           </Grid>
         </Container>
-      </Container>
+      </Box>
     </>
   );
 };

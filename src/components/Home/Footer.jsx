@@ -29,14 +29,26 @@ const Footer = () => {
             </Box>
           </Grid>
           <Grid item md={3} xs={12}>
-            <Box mt={4} sx={{ textAlign: { md: "left", xs: "center" } }}>
-              <Typography variant="h6" color="white">
+            <Box mt={5} sx={{ textAlign: { md: "left", xs: "center" } }}>
+              <Typography
+                variant="h6"
+                color="white"
+                sx={{ fontSize: "1rem !important" }}
+              >
                 <u>HOME</u>
               </Typography>
-              <Typography variant="h6" color="white">
+              <Typography
+                variant="h6"
+                color="white"
+                sx={{ fontSize: "1rem !important", margin: "0.7rem 0rem" }}
+              >
                 <u> FAQS</u>
               </Typography>
-              <Typography variant="h6" color="white">
+              <Typography
+                variant="h6"
+                color="white"
+                sx={{ fontSize: "1rem !important" }}
+              >
                 <u>PRIVACY POLICY</u>
               </Typography>
             </Box>
@@ -48,13 +60,25 @@ const Footer = () => {
             sx={{ textAlign: { md: "left", xs: "center" } }}
           >
             <Box mt={4}>
-              <Typography variant="h6" color="white">
+              <Typography
+                variant="h6"
+                color="white"
+                sx={{ fontSize: "1rem !important" }}
+              >
                 <u>HOW TO INVEST</u>
               </Typography>
-              <Typography variant="h6" color="white">
+              <Typography
+                variant="h6"
+                color="white"
+                sx={{ fontSize: "1rem !important", margin: "0.7rem 0rem" }}
+              >
                 <u> TERMS</u>
               </Typography>
-              <Typography variant="h6" color="white">
+              <Typography
+                variant="h6"
+                color="white"
+                sx={{ fontSize: "1.1rem !important" }}
+              >
                 <u>CONTACT US</u>
               </Typography>
             </Box>
@@ -65,12 +89,16 @@ const Footer = () => {
                 sx={{
                   color: "#2AFC95",
                   marginRight: "0.5rem",
-                  fontSize: "2rem !important",
+                  fontSize: "1.5rem !important",
                   marginTop: "3px",
                 }}
               ></LocationOnIcon>
               <Box>
-                <Typography variant="h6" color="#2AFC95">
+                <Typography
+                  variant="h6"
+                  sx={{ fontSize: "1rem !important" }}
+                  color="#2AFC95"
+                >
                   OFFICE ADDRESS
                 </Typography>
                 <Typography>26 London Lane, London, England, E8 3FU</Typography>
@@ -81,12 +109,16 @@ const Footer = () => {
                 sx={{
                   color: "#2AFC95",
                   marginRight: "0.5rem",
-                  fontSize: "2rem !important",
+                  fontSize: "1.5rem !important",
                   marginTop: "3px",
                 }}
               ></EmailIcon>
               <Box>
-                <Typography variant="h6" color="#2AFC95">
+                <Typography
+                  variant="h6"
+                  color="#2AFC95"
+                  sx={{ fontSize: "1rem !important" }}
+                >
                   E-MAIL ADDRESS
                 </Typography>
                 <Typography>admin@get-hourly.com</Typography>
