@@ -71,6 +71,7 @@ export default function Navbar() {
                   fontSize: "14px",
                   padding: "10px 20px",
                   borderRadius: "35px",
+                  cursor: "pointer",
                 }}
               >
                 PDF Guide

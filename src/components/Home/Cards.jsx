@@ -140,7 +140,6 @@ export default function Cards() {
                     textAlign: "center",
                     width: "90%",
                     border: "1px solid green",
-                    textAlign: "center",
                     bgcolor: "#2AFC9509",
                     color: "green",
                     fontSize: "24px",
@@ -150,7 +149,7 @@ export default function Cards() {
                   Enter Amount
                 </Box>
                 <InputBase
-                  value="20"
+                  // value="20"
                   sx={{
                     px: 1,
                     mt: 0.4,
@@ -168,6 +167,7 @@ export default function Cards() {
                   my={3}
                   mx="auto"
                   sx={{
+                    cursor: "pointer",
                     padding: "22px 20px",
                     background: `url(${CardButton})`,
                     backgroundRepeat: "no-repeat",
