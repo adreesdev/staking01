@@ -4,18 +4,17 @@ import CardTopV from "../../assets/CardTopV.png";
 import CardButton from "../../assets/CardButton.png";
 
 export default function Cards() {
-  const data = [{}, {}, {}, {}, {}];
   return (
     <Box my={{ xs: 5, md: 10 }}>
       <Container>
         <Grid container spacing={5}>
-          {data.map((value, i) => (
+          {[1, 2, 3, 4, 5].map((value, i) => (
             <Grid item xs={12} sm={6} md={4} key={i}>
               <Box
                 p={1}
-                border="1px solid green"
+                border="1px solid #2AFC95"
                 textAlign="center"
-                bgcolor="#2AFC9509"
+                bgcolor="#03183C"
               >
                 <Box
                   width="80%"
@@ -53,7 +52,7 @@ export default function Cards() {
                       sx={{
                         fontWeight: "700",
                         fontSize: "24px",
-                        color: "green",
+                        color: "#2AFC95",
                       }}
                     >
                       0%
@@ -73,7 +72,7 @@ export default function Cards() {
                       sx={{
                         fontWeight: "700",
                         fontSize: "24px",
-                        color: "green",
+                        color: "#2AFC95",
                       }}
                     >
                       0%
@@ -100,7 +99,7 @@ export default function Cards() {
                       sx={{
                         fontWeight: "700",
                         fontSize: "24px",
-                        color: "green",
+                        color: "#2AFC95",
                       }}
                     >
                       Anytime
@@ -120,7 +119,7 @@ export default function Cards() {
                       sx={{
                         fontWeight: "700",
                         fontSize: "24px",
-                        color: "green",
+                        color: "#2AFC95",
                       }}
                     >
                       14
@@ -139,9 +138,9 @@ export default function Cards() {
                     mx: "auto",
                     textAlign: "center",
                     width: "90%",
-                    border: "1px solid green",
-                    bgcolor: "#2AFC9509",
-                    color: "green",
+                    border: "1px solid #2AFC95",
+                    bgcolor: "#03183C",
+                    color: "#2AFC95",
                     fontSize: "24px",
                   }}
                 />
@@ -155,10 +154,10 @@ export default function Cards() {
                     mt: 0.4,
                     mx: "auto",
                     width: "90%",
-                    border: "1px solid green",
+                    border: "1px solid #2AFC95",
                     textAlign: "center",
-                    bgcolor: "#2AFC9509",
-                    color: "green",
+                    bgcolor: "#03183C",
+                    color: "#2AFC95",
                     fontSize: "24px",
                   }}
                 />

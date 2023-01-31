@@ -9,21 +9,21 @@ const ImportantPlan = () => {
         <Box
           sx={{
             bgcolor: "#04242A",
-            padding: "1rem",
+            padding: { md: "1rem", xs: "0.5rem" },
             border: "1px solid #2AFC95",
+            fontSize: { md: "1.2rem", xs: "1rem" },
           }}
         >
           <ol>
-            <li style={{ fontSize: "1.2rem" }}>
+            <li>
               Important: Plans return are float and daily profit for a new
               deposit will increase by 0.5% daily
             </li>
-            <li style={{ fontSize: "1.2rem", margin: "0.5rem 0rem" }}>
+            <li style={{ margin: "0.5rem 0rem" }}>
               Minimum deposit amount is 0.05 BNB and you can have multiple
               deposits
             </li>
-            <li style={{ fontSize: "1.2rem" }}>
-              {" "}
+            <li>
               Earnings every moment, withdraw instantly any time (if you did not
               use capitalization of interest in Plan 4, Plan 5 and Plan 6)
             </li>
@@ -34,7 +34,7 @@ const ImportantPlan = () => {
             <Grid item xs={12} md={4.5}>
               <Box
                 sx={{
-                  padding: "2rem ",
+                  padding: { md: "2rem ", xs: "1rem " },
                   border: "1px solid #2AFC95",
                   textAlign: "center",
                   bgcolor: "#000D30",
@@ -57,7 +57,7 @@ const ImportantPlan = () => {
                   variant="h3"
                   sx={{ color: "#2AFC95", margin: "0.5rem 0rem" }}
                 >
-                  0.00000
+                  0.0000
                 </Typography>
                 <Box
                   sx={{
@@ -76,7 +76,7 @@ const ImportantPlan = () => {
               <Box
                 sx={{
                   bgcolor: "#04242A",
-                  padding: "1rem 2rem",
+                  padding: { md: "1rem 2rem", xs: "1rem" },
                   border: "1px solid #2AFC95",
                   height: "100% !important",
                 }}
@@ -101,6 +101,7 @@ const ImportantPlan = () => {
                       height: "44px",
                       width: "50px",
                       padding: "0.5rem",
+                      display: { md: "block", xs: "none" },
                     }}
                   ></FileCopyIcon>
                 </Box>
@@ -145,6 +146,7 @@ const ImportantPlan = () => {
                       bgcolor: "#04233B",
                       padding: "1rem",
                       border: "1px solid #2AFC95",
+                      marginTop: { md: "0rem", xs: "1rem" },
                     }}
                     item
                     md={7}
