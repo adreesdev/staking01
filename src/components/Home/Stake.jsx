@@ -24,7 +24,7 @@ const Stake = () => {
           <Grid container spacing={2}>
             {logos.map((logoimg) => {
               return (
-                <Grid item md={3} xs={6}>
+                <Grid item md={3} xs={3}>
                   <Box>
                     <img
                       src={logoimg}
