@@ -16,12 +16,13 @@ const Footer = () => {
                 flexDirection="column"
                 alignItems="center"
                 justifyContent="center"
+                mt={2}
               >
                 <StarRateIcon
                   sx={{
                     color: "#2AFC95",
-                    height: "120px !important",
-                    width: "120px",
+                    height: "100px !important",
+                    width: "100px",
                   }}
                 />
                 <Typography variant="h6">Logo Here</Typography>
@@ -84,44 +85,55 @@ const Footer = () => {
             </Box>
           </Grid>
           <Grid item md={3} xs={12} mt={4}>
-            <Box display="flex">
-              <LocationOnIcon
-                sx={{
-                  color: "#2AFC95",
-                  marginRight: "0.5rem",
-                  fontSize: "1.5rem !important",
-                  marginTop: "3px",
-                }}
-              ></LocationOnIcon>
-              <Box>
-                <Typography
-                  variant="h6"
-                  sx={{ fontSize: "1rem !important" }}
-                  color="#2AFC95"
-                >
-                  OFFICE ADDRESS
-                </Typography>
-                <Typography>26 London Lane, London, England, E8 3FU</Typography>
+            <Box
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              flexDirection="column"
+            >
+              <Box display="flex" width="100%">
+                <LocationOnIcon
+                  sx={{
+                    color: "#2AFC95",
+                    marginRight: "0.5rem",
+                    fontSize: "1.5rem !important",
+                    textAlign: { md: "left", xs: "center" },
+                  }}
+                ></LocationOnIcon>
+                <Box>
+                  <Typography
+                    variant="h6"
+                    sx={{
+                      fontSize: "1rem !important",
+                    }}
+                    color="#2AFC95"
+                  >
+                    OFFICE ADDRESS
+                  </Typography>
+                  <Typography>
+                    26 London Lane, London, England, E8 3FU
+                  </Typography>
+                </Box>
               </Box>
-            </Box>
-            <Box display="flex">
-              <EmailIcon
-                sx={{
-                  color: "#2AFC95",
-                  marginRight: "0.5rem",
-                  fontSize: "1.5rem !important",
-                  marginTop: "3px",
-                }}
-              ></EmailIcon>
-              <Box>
-                <Typography
-                  variant="h6"
-                  color="#2AFC95"
-                  sx={{ fontSize: "1rem !important" }}
-                >
-                  E-MAIL ADDRESS
-                </Typography>
-                <Typography>admin@get-hourly.com</Typography>
+              <Box display="flex" width="100%">
+                <EmailIcon
+                  sx={{
+                    color: "#2AFC95",
+                    marginRight: "0.5rem",
+                    fontSize: "1.5rem !important",
+                    marginTop: "3px",
+                  }}
+                ></EmailIcon>
+                <Box>
+                  <Typography
+                    variant="h6"
+                    color="#2AFC95"
+                    sx={{ fontSize: "1rem !important" }}
+                  >
+                    E-MAIL ADDRESS
+                  </Typography>
+                  <Typography>admin@get-hourly.com</Typography>
+                </Box>
               </Box>
             </Box>
           </Grid>
